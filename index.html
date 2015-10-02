@@ -99,11 +99,9 @@
 
     </script>
 
-
     <link href="css/main.css" rel="stylesheet"/>
-<!--    <link href="stylesheet.css" rel="stylesheet"/> -->
 
-    <style>
+<!--    <style>
         /* code for animated blinking cursor */
         .typed-cursor{
             opacity: 1;
@@ -139,7 +137,46 @@
             50% { opacity:0; }
             100% { opacity:1; }
         }
+    </style> -->
+
+    <style>
+        /* code for animated blinking cursor */
+        .typed-cursor{
+            opacity: 0;
+            font-weight: 100;
+            -webkit-animation: blink 3.7s infinite;
+            -moz-animation: blink 3.7s infinite;
+            -ms-animation: blink 3.7s infinite;
+            -o-animation: blink 3.7s infinite;
+            animation: blink 3.7s infinite;
+        }
+        @-keyframes blink{
+            0% { opacity:0; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-webkit-keyframes blink{
+            0% { opacity:0; }
+            50% { opacity:0; }
+            100% { opacity:0; }
+        }
+        @-moz-keyframes blink{
+            0% { opacity:0; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-ms-keyframes blink{
+            0% { opacity:0; }
+            50% { opacity:0; }
+            100% { opacity:0; }
+        }
+        @-o-keyframes blink{
+            0% { opacity:0; }
+            50% { opacity:0; }
+            100% { opacity:0; }
+        }
     </style>
+
 
     </head>
 
@@ -148,16 +185,20 @@
 
                 <div class="wrap">
                     <div class="type-wrap">
-                        I <strong> love</strong>
+                        I
                         <div id="typed-strings">
-                            <p>JavaScript and NodeJS</p>
+                            <p><strong>love</strong> JavaScript and NodeJS</p>
                             <p></p>
-                            <p>Linux, python and shell scripting</p>
-                            <p>jazz, metal, techno, soul... music!</p>
-                            <p>modular synthesizers</p>
                             <p></p>
-                            <p>photography</p>
-                            <p>Mira - my dachshund</p>
+                            <p>use Linux, python and shell scripting to solve problems</p>
+                            <p></p>
+                            <p></p>
+                            <p>listen to jazz, metal, techno... music!</p>
+                            <p></p>
+                            <p>build modular synthesizers</p>
+                            <p></p>
+                            <p><strong>love</strong> photography</p>
+                            <p><strong>adore</strong> Mira, my dachshund</p>
                         </div>
                         <span id="typed" style="white-space:pre;"></span>
                     </div>
@@ -168,14 +209,16 @@
                     <div class="type-wrap">
                         I'm
                         <div id="typed-strings2">
-                            <p></p>
                             <p>a brainstorming pro</p>
-                            <p>attracted to solutions</p>
                             <p></p>
                             <p>a full stack developer</p>
-                            <p>studying new web tech like ReactJS</p>
+                            <p></p>
+                            <p>attracted to solutions</p>
+                            <p></p>
+                            <p>focusing on <strong>mobile</strong></p>
                             <p></p>
                             <p>learning for life at <strong>Hyper Island</strong></p>
+                            <p></p>
                         </div>
                         <span id="typed2" style="white-space:pre;"></span>
                     </div>
@@ -186,14 +229,16 @@
                     <div class="type-wrap">
                         I
                         <div id="typed-strings3">
-                            <p>make awesome pie!</p>
                             <p></p>
+                            <p>make <strong>awesome</strong> pie!</p>
+                            <p></p>
+                            <p></p>
+                            <p>study ReactJS and Bootstrap 4</p>
                             <p>pick things apart</p>
-                            <p>focus on <strong>mobile</strong></p>
                             <p></p>
                             <p>study leadership and teams</p>
+                            <p></p>
                             <p>ground my coffee beans by hand</p>
-
 
                             </div>
                         <span id="typed3" style="white-space:pre;"></span>
@@ -225,13 +270,6 @@
                     <img src="img/paj.png" width="100" height="100">
 
                 </div>
-
-
-<!--
-                <div class="type-wrap">
-                    <p>Call me</p>
-                </div> -->
-
 
     </body>
 </html>
