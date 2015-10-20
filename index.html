@@ -17,124 +17,11 @@
     <link href="css/stylish-portfolio.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
     
-    
-<!--
-EXPERIMENT!!! REMOVE IF BROKEN
--->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="typed/typed.js" type="text/javascript"></script>
 <!--    <link href="typed/main.css" rel="stylesheet"/>-->
-<!--    <link href="typed/stylesheet.css" rel="stylesheet"/>-->
-    <script>
-    $(function(){
-
-        $("#typed").typed({
-            // strings: ["Typed.js is a <strong>jQuery</strong> plugin.", "It <em>types</em> out sentences.", "And then deletes them.", "Try it out!"],
-            stringsElement: $('#typed-strings'),
-            typeSpeed: 5,
-            backDelay: 7100,
-            loop: true,
-            contentType: 'html', // or text
-            // defaults to false for infinite loop
-            loopCount: false,
-            callback: function(){ foo(); },
-            resetCallback: function() { newTyped(); }
-        });
-
-        $(".reset").click(function(){
-            $("#typed").typed('reset');
-        });
-
-    });
-
-    function newTyped(){ /* A new typed object */ }
-
-    function foo(){ console.log("Callback"); }
-
-    </script>
-
     <link href="css/main.css" rel="stylesheet"/>
-    <style>
-        /* code for animated blinking cursor */
-        .typed-cursor{
-            opacity: 1;
-            font-weight: 100;
-            -webkit-animation: blink 0.7s infinite;
-            -moz-animation: blink 0.7s infinite;
-            -ms-animation: blink 0.7s infinite;
-            -o-animation: blink 0.7s infinite;
-            animation: blink 0.7s infinite;
-        }
-        @-keyframes blink{
-            0% { opacity:1; }
-            50% { opacity:0; }
-            100% { opacity:1; }
-        }
-        @-webkit-keyframes blink{
-            0% { opacity:1; }
-            50% { opacity:0; }
-            100% { opacity:1; }
-        }
-        @-moz-keyframes blink{
-            0% { opacity:1; }
-            50% { opacity:0; }
-            100% { opacity:1; }
-        }
-        @-ms-keyframes blink{
-            0% { opacity:1; }
-            50% { opacity:0; }
-            100% { opacity:1; }
-        }
-        @-o-keyframes blink{
-            0% { opacity:1; }
-            50% { opacity:0; }
-            100% { opacity:1; }
-        }
-    </style>
-
-    <style>
-        /* code for animated blinking cursor */
-        .typed-cursor{
-            opacity: 0;
-            font-weight: 100;
-            -webkit-animation: blink 3.7s infinite;
-            -moz-animation: blink 3.7s infinite;
-            -ms-animation: blink 3.7s infinite;
-            -o-animation: blink 3.7s infinite;
-            animation: blink 3.7s infinite;
-        }
-        @-keyframes blink{
-            0% { opacity:0; }
-            50% { opacity:0; }
-            100% { opacity:1; }
-        }
-        @-webkit-keyframes blink{
-            0% { opacity:0; }
-            50% { opacity:0; }
-            100% { opacity:0; }
-        }
-        @-moz-keyframes blink{
-            0% { opacity:0; }
-            50% { opacity:0; }
-            100% { opacity:1; }
-        }
-        @-ms-keyframes blink{
-            0% { opacity:0; }
-            50% { opacity:0; }
-            100% { opacity:0; }
-        }
-        @-o-keyframes blink{
-            0% { opacity:0; }
-            50% { opacity:0; }
-            100% { opacity:0; }
-        }
-    </style>
-<!-- EXPERIMENT OVER-->
-    
-    
-    
-    
-    
+        
 </head>
 
 <body>
@@ -175,14 +62,13 @@ EXPERIMENT!!! REMOVE IF BROKEN
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 text-center">
-                    <img src="img/thedavidsquare.jpg" class="img-circle" alt="David portrait" width="150" height="150">
-                    <h2>I'm David</h2>                    
+                    <img src="img/thedavidsquare.jpg" class="img-circle" alt="David portrait" width="150" height="150">                    
                     <p class="lead"><em>My background is in Linux server maintenance, customer service and sales. I now focus on mobile development and project management. I love open source and prefer collaboration above competition.<br>I love my dog and doing night photography like the above shot of Old Town, Stockholm.</em></p><br><hr>
                     <ul class="list-inline">
-                    <li><a href="mailto:hej@davidlars.com"><button type="button" class="btn btn-default btn-sm">E-mail</button></a></li>
-                    <li><a href="https://se.linkedin.com/pub/david-berglund/26/7b6/27b"><button type="button" class="btn btn-default btn-sm">Linkedin</button></a></li>
-                    <li><a href="https://www.facebook.com/davidlars"><button type="button" class="btn btn-default btn-sm">Facebook</button></a></li>
-                    <li><a href="files/cv.pdf">  <button type="button" class="btn btn-default btn-sm">CV</button></a></li>
+                    <li><a href="mailto:hej@davidlars.com"><button type="button" class="btn btn-default btn-bg">E-mail</button></a></li>
+                    <li><a href="https://se.linkedin.com/pub/david-berglund/26/7b6/27b"><button type="button" class="btn btn-default btn-bg">Linkedin</button></a></li>
+                    <li><a href="https://www.facebook.com/davidlars"><button type="button" class="btn btn-default btn-bg">Facebook</button></a></li>
+                    <li><a href="files/cv.pdf">  <button type="button" class="btn btn-default btn-bg">CV</button></a></li>
                     </ul>
                 </div>
             </div>
@@ -271,11 +157,11 @@ EXPERIMENT!!! REMOVE IF BROKEN
 -->    <!-- /Callout --> 
 
                 
-    <div class="col-md-2 text-center">
+<!--    <div class="col-md-2 text-center">
         <div class="service-item">
             <h4>Linux aficionado</h4>
             <p>I love Linux and terminals. Piping together a bunch of Linux/GNU utilities to do useful things is the most empowering aspect of being in a Linux terminal environment. It's the only environment that makes sense on the server. Don't even get me started about Windows Server.</p>
-        </div>
+        </div> -->
     </div>
 
     
@@ -285,15 +171,12 @@ EXPERIMENT!!! REMOVE IF BROKEN
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 text-center">
                     <ul class="list-inline">
-                    <li><a href="mailto:hej@davidlars.com"><button type="button" class="btn btn-default btn-sm">E-mail</button></a></li>
-                    <li><a href="https://se.linkedin.com/pub/david-berglund/26/7b6/27b"><button type="button" class="btn btn-default btn-sm">Linkedin</button></a></li>
-                    <li><a href="https://www.facebook.com/davidlars"><button type="button" class="btn btn-default btn-sm">Facebook</button></a></li>
-                    <li><a href="files/cv.pdf">  <button type="button" class="btn btn-default btn-sm">CV</button></a></li>
+                    <li><a href="mailto:hej@davidlars.com"><button type="button" class="btn btn-default btn-bg">E-mail</button></a></li>
+                    <li><a href="https://se.linkedin.com/pub/david-berglund/26/7b6/27b"><button type="button" class="btn btn-default btn-bg">Linkedin</button></a></li>
+                    <li><a href="https://www.facebook.com/davidlars"><button type="button" class="btn btn-default btn-bg">Facebook</button></a></li>
+                    <li><a href="files/cv.pdf">  <button type="button" class="btn btn-default btn-bg">CV</button></a></li>
                     </ul>
 
-                    <div class="top-scroll">
-                        <a href="#top"><i class="fa fa-circle-arrow-up scroll fa-4x"></i></a>
-                    </div>
                 </div>
             </div>
         </div>
