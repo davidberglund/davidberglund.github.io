@@ -133,7 +133,6 @@ color: #FEFEFE;
 .intro {
   padding: 50px 0;
   background: url(../img/mooning.png) repeat center center fixed; 
-
 }
 
 /* Services */
@@ -141,7 +140,7 @@ color: #FEFEFE;
 .services {
   background: url(../img/black-Linen.png) repeat center center fixed; 
 /*background: #9CB28A;*/
-  padding: 50px 0;
+ /* padding: 50px 0;*/
   color: #ffffff;
 }
 
@@ -254,4 +253,14 @@ i.scroll:hover {
 
   .progress {
       margin: 60px;
+  }
+
+
+  .mylink {
+      width: 20%;
+  }
+
+
+  .grejer {
+      padding: 30px;
   }
