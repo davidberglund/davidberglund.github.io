@@ -96,7 +96,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-    font-size: 2.35rem;
+    font-size: 2.75rem;
 }
 
 h2 {
@@ -156,6 +156,10 @@ ul.flat li {
 
 .page-title {
     margin: 0;
+}
+
+.page-title h1 {
+    font-size: 50%;
 }
 
 .smaller {
