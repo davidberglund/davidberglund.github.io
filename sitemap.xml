@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://davidlars.com/</loc>
+    <lastmod>2021-06-05T23:53:13+02:00</lastmod>
+  </url><url>
+    <loc>http://davidlars.com/posts/init/</loc>
+    <lastmod>2021-06-05T23:53:13+02:00</lastmod>
+  </url><url>
+    <loc>http://davidlars.com/posts/</loc>
+    <lastmod>2021-06-05T23:53:13+02:00</lastmod>
+  </url><url>
+    <loc>http://davidlars.com/tags/</loc>
+  </url>
+</urlset>
